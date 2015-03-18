@@ -25,3 +25,17 @@ h = height**.3333333333333333333333333333
 print("The height is",h-6371000, "meters")
 
 # Converted 6371 km to 6371000 meters
+
+"""2a) Take the orbital period equation, T^2/R^3 = (4pi^2)/(G*M) Where G is Newton's gravitational constant, M is the mass of the Earth and R is the distance from the center of Earth to the satellite. Invert both sides and multiply both sides by T^2 to get R^3 =(G*M*T^2)/(4pi^2), then take the third root of both sides and you get R = ((G*M*T^2)/(4pi^2))^(1/3). Then, subtract the radius of Earth from both sides, and you get h = ((G*M*T^2)/(4pi^2))^(1/3) - R where h is the altitude above Earths surface that a satellite must have and R is now the radius of Earth.
+
+C) From the last of the calculations, a 45 minute period would not be
+possible as it gives a negative answer, saying the satellite would have to be inside the
+Earth.
+
+D) 86148 seconds for 23.93 hours 86400 for 24 hours. That is a difference of
+252 seconds. From the program, a period of 23.93 hours would give an altitude
+35855910.176174976 meters, while a 24 hour period would give an altitude of
+35773762.329895645 meters, which would results in an altitude difference of
+82147.846279331. A geosynchronous orbit must match the rotation rate of the
+Earth, which by definition is a sidereal day, about 4 minutes short of a
+regular day."""
