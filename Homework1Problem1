@@ -1,0 +1,10 @@
+x = int(input("Enter the value of x: "))
+# Temporary placeholder for the input number & converts input string to integer
+
+print("The integer you entered was", x)
+
+n = bin(x)
+
+#converts the integer to binary
+
+print("The converted binary number is",n)
