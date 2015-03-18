@@ -1,0 +1,27 @@
+from math import pi
+
+temp = int(input("Please enter the desired Period T in seconds:", ))
+print("The entered period was",temp)
+
+# input for the desired period
+
+T = temp**2
+
+M = 5.97*10**24
+print("The mass is", M, "kilograms")
+G = 6.67*10**-11
+print("Gravitational constant is", G)
+
+pie = pi**2
+
+# Defining givens
+
+height = T*M*G/4/pie
+
+h = height**.3333333333333333333333333333
+
+# equations to determine height
+
+print("The height is",h-6371000, "meters")
+
+# Converted 6371 km to 6371000 meters
